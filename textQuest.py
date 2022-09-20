@@ -31,7 +31,6 @@ def requireAnswerThreeDoors(whatFirstAnswerThreeDoors: str, whatSecondAnswerThre
     return answerInRequireThreeDoors
 
 
-
 print("Вы открывая глаза, поняли что находитесь в комнате. Перед вами 2 двери. В какую войдёте?")
 
 answer = requireAnswerTwoDoors("левая", "правая", "Вы выбрали левую.", "Вы выбрали правую.")

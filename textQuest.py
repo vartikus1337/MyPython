@@ -1,14 +1,13 @@
 def requireAnswer(whatFirstAnswer: str, whatSecondAnswer: str, firstAnswer: str, secondAnswer: str):
-    answerBool = True
     answerInRequire = 0
     while answerBool:
         answerInRequire = int(input(f"1 - {whatFirstAnswer} 2 - {whatSecondAnswer} \n"))
         if answerInRequire == 1:
-            answerBool = False
             print(firstAnswer)
+            break
         elif answerInRequire == 2:
-            answerBool = False
             print(secondAnswer)
+            break
         else:
             print("Неверный ответ")
     return answerInRequire

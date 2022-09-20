@@ -13,10 +13,6 @@ def requireAnswerTwoDoors(whatFirstAnswerTwoDoors: str, whatSecondAnswerTwoDoors
     return answerInRequireTwoDoors
 
 
-print("Вы открывая глаза, поняли что находитесь в комнате. Перед вами 2 двери. В какую войдёте?")
-
-answer = requireAnswerTwoDooors("левая", "правая", "Вы выбрали левую.", "Вы выбрали правую.")
-
 def requireAnswerThreeDoors(whatFirstAnswerThreeDoors: str, whatSecondAnswerThreeDoors: str,whatThirdAnswerThreeDoors: str, firstAnswerThreeDoors: str, secondAnswerThreeDoors: str, thirdAnswerThreeDoors):
     answerInRequire = 0
     while True:
@@ -30,3 +26,10 @@ def requireAnswerThreeDoors(whatFirstAnswerThreeDoors: str, whatSecondAnswerThre
         else:
             print("Неверный ответ")
     return answerInRequire
+
+
+print("Вы открывая глаза, поняли что находитесь в комнате. Перед вами 2 двери. В какую войдёте?")
+
+answer = requireAnswerTwoDooors("левая", "правая", "Вы выбрали левую.", "Вы выбрали правую.")
+
+
